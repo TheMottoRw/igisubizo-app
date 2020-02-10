@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchLostsFrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:padding="10dp"
+    android:background="@drawable/login_fieldset"
+    >
+    <TextView
+        android:text="@string/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/header"
+        />
+    <EditText
+        android:id="@+id/searchKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        style="@style/autoComplete"
+        android:background="@drawable/edittexts"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        />
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btnSave"
+        android:text="@string/btnSearch"
+        style="@style/btn"
+        android:drawableLeft="@mipmap/save"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <FrameLayout
+        android:id="@+id/fragContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+    </ScrollView>
+    <!--TextView
+        android:id="@+id/owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fonts"/>
+    <TextView
+        android:id="@+id/identnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fonts"/>
+    <TextView
+        android:id="@+id/tvScreenShot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fonts"/>
+    <ImageView
+        android:id="@+id/screenShot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" /-->
+</LinearLayout>
+</FrameLayout>

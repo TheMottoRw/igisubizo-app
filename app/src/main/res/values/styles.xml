@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorAccent" tools:ignore="NewApi">@color/colorAccent</item>
+        <item name="android:colorPrimaryDark" tools:ignore="NewApi">@color/colorPrimaryDark</item>
+         <item name="android:windowBackground">@color/winBg</item>
+        <!-- Customize your theme here. -->
+    </style>
+<!--ADD NEW LOST-->
+    <style name="btn">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="addnew_header">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+    <style name="update_header">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:paddingLeft">30dp</item>
+    </style>
+    <style name="fonts">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:color">#000</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="fontsNormal">
+        <item name="android:textSize">16dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:color">#000</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--LOGIN-->
+    <style name="loginHeader">
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:text">@string/loginHeader</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="autoComplete">
+        <item name="android:textSize">18dp</item>
+        <item name="android:hint">@string/searchUserPlaceHolder</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">18dp</item>
+        <item name="android:text">@string/header</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+</resources>

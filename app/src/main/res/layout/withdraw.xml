@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:paddingBottom="10dp">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/login_fieldset">
+            <TextView
+                android:id="@+id/updateHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/update_header"
+                android:text="@string/withdrawHeader"/>
+            <TextView
+                android:id="@+id/tvAccname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acname"
+                style="@style/fonts"
+                android:background="@drawable/textviews"/>
+
+            <EditText
+                android:id="@+id/edtAccname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:drawableLeft="@mipmap/loguser"
+                android:background="@drawable/edittexts"
+                android:editable="false"></EditText>
+            <TextView
+                android:id="@+id/tvAcccompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accompany"
+                style="@style/fonts"
+                android:background="@drawable/textviews"/>
+
+            <EditText
+                android:id="@+id/edtAcccompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:drawableLeft="@mipmap/id"
+                android:background="@drawable/edittexts"
+                android:editable="false"></EditText>
+            <TextView
+                android:id="@+id/tvAccnbr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acnbr"
+                style="@style/fonts"
+                android:background="@drawable/textviews"/>
+
+            <EditText
+                android:id="@+id/edtAccnbr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:drawableLeft="@mipmap/pay_card_blue"
+                android:background="@drawable/edittexts"
+                android:editable="false"></EditText>
+            <TextView
+                android:id="@+id/tvBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_balance"
+                style="@style/fonts"
+                android:background="@drawable/textviews"/>
+
+            <EditText
+                android:id="@+id/edtBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:drawableLeft="@mipmap/rwf"
+                android:background="@drawable/edittexts"
+                android:editable="false"
+                android:inputType="number"></EditText>
+
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/amount"
+                style="@style/fonts"
+                android:background="@drawable/textviews"/>
+
+            <EditText
+                android:id="@+id/edtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:drawableLeft="@mipmap/rwf"
+                android:background="@drawable/edittexts"
+                android:inputType="number"></EditText>
+
+            <Button
+                android:id="@+id/btnWithdrawMoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnWithdrawMoney"
+                style="@style/btn"
+                android:background="@drawable/buttons"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

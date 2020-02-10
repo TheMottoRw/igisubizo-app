@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.bpradmin.igisubizo.notfound"
+    android:layout_marginTop="20dp">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="10dp" android:paddingLeft="10dp" android:paddingTop="5dp"
+        android:background="@drawable/recyclerview">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/addnew_header"
+            android:text="@string/notfoundheader"
+            android:layout_marginLeft="45dp"/>
+        <TextView
+            android:id="@+id/notfoundcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notfoundcontent"
+            style="@style/fontsNormal"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#0000f0"
+            android:text="@string/footer" />
+    </LinearLayout>
+
+</FrameLayout>

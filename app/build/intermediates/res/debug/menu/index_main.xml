@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="@string/action_search"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@mipmap/search"
+        android:actionViewClass="android.widget.SearchView"/>
+</menu><!-- From: file:/C:/Users/bpradmin/AndroidStudioProjects/igisubizo/app/src/main/res/menu/index_main.xml -->

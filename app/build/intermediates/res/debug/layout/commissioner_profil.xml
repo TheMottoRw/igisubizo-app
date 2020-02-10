@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recyclerview"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:paddingBottom="5dp"
+    >
+    <TextView
+        android:id="@+id/foundheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/addnew_header"
+        android:text="@string/userinfoHeader"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/fontsNormal"
+        android:text="@string/names"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/tvNid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fontsNormal"
+        android:text="@string/nid"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvUname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fontsNormal"
+        android:text="@string/unamehint"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fontsNormal"
+        android:text="@string/phone"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fontsNormal"
+        android:text="@string/email"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/officeaddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fontsNormal"
+        android:text="@string/officeaddr"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvCate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fontsNormal"
+        android:text="@string/category"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/infocontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infocontent"
+        style="@style/fontsNormal"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="7dp"
+        android:textColor="#0000f0"
+        android:text="@string/footer" />
+</LinearLayout><!-- From: file:/C:/Users/bpradmin/AndroidStudioProjects/igisubizo/app/src/main/res/layout/commissioner_profil.xml -->

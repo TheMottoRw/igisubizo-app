@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/login_fieldset"
+        android:paddingBottom="10dp">
+        <TextView
+            android:text="@string/seachEnduserInfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/header"
+            />
+        <EditText
+            android:id="@+id/searchKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            style="@style/autoComplete"
+            android:background="@drawable/edittexts"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:maxLength="16"
+            />
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btnSave"
+            android:text="@string/btnSearch"
+            style="@style/btn"
+            android:drawableLeft="@mipmap/save"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/indexViewLayout">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wehelpkeepdoc"
+            android:textColor="@color/white"
+            style="@style/addnew_header"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fonts"
+            android:background="@drawable/recyclerview"
+            android:layout_marginTop="20dp"
+            android:text="@string/viewitemsContent"
+            android:paddingLeft="15dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fonts"
+            android:text="@string/footer"
+            android:textColor="#0000f0"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="60dp"
+            android:paddingBottom="3dp"
+            android:background="@drawable/edittexts"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvQueues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+</FrameLayout>

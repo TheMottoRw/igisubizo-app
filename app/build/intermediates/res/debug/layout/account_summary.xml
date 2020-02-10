@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:id="@+id/layoutContainer">
+
+    <TextView
+        android:id="@+id/updateHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/update_header"
+        android:text="@string/acHeader"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        android:paddingBottom="30dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstSummary"></ListView>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttons"
+    android:text="DOWNLOAD"
+    android:textColor="@color/white"
+    android:drawableLeft="@drawable/download"/>
+</LinearLayout>
+<!-- From: file:/C:/Users/bpradmin/AndroidStudioProjects/igisubizo/app/src/main/res/layout/account_summary.xml -->

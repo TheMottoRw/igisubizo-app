@@ -1,0 +1,288 @@
+<resources>
+    <string name="app_name">Igisubizo</string>
+
+    <string name="title_section1">NEW LOST</string>
+    <string name="title_section2">LOSTS</string>
+
+    <string name="action_profil">Profile</string>
+    <string name="action_search">Search</string>
+    <string name="action_lock">Change Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_login">Login</string>
+    <string name="action_balance">Balance</string>
+    <string name="action_account">Account</string>
+    <string name="action_payment">Payment</string>
+    <string name="searchPlaceHolder">Enter Lost Item Id Number</string>
+
+    <!--ADD NEW LOST-->
+    <string name="addnew_header">ADD LOST</string>
+    <string name="addnew_btnsave">ADD</string>
+    <string name="btnupdate">UPDATE</string>
+    <string name="btnSearch">SEARCH</string>
+    <string name="addnew_btncancel">CANCEL</string>
+    <string name="updateHeader">UPDATE LOST ITEM</string>
+    <string name="owner">Owner\'s Name:</string>
+    <string name="identification">Item Identification No:</string>
+    <string name="type">Lost Type</string>
+    <string name="releaseProv">Province</string>
+    <string name="releaseDist">District</string>
+    <string name="releaseSec">Sector</string>
+    <string-array name="district">
+        <item name="Kamonyi">Kamonyi</item>
+        <item name="Muhanga">Muhanga</item>
+        <item name="Ruhango">Ruhango</item>
+        <item name="Nyanza">Nyanza</item>
+        <item name="Huye">Huye</item>
+        <item name="Gisagara">Gisagara</item>
+        <item name="Nyamagabe">Nyamagabe</item>
+        <item name="Nyaruguru">Nyaruguru</item>
+        <item name="Gakenke">Gakenke</item>
+        <item name="Rulindo">Rulindo</item>
+        <item name="Gicumbi">Gicumbi</item>
+        <item name="Burera">Burera</item>
+        <item name="Musanze">Musanze</item>
+        <item name="Nyabihu">Nyabihu</item>
+        <item name="Rubavu">Rubavu</item>
+        <item name="Nyamasheke">Nyamasheke</item>
+        <item name="Karongi">Karongi</item>
+        <item name="Ngororero">Ngororero</item>
+        <item name="Rusizi">Rusizi</item>
+        <item name="Rutsiro">Rutsiro</item>
+        <item name="Nyagatare">Nyagatare</item>
+        <item name="Ngoma">Ngoma</item>
+        <item name="Kirehe">Kirehe</item>
+        <item name="Rwamagana">Rwamagana</item>
+        <item name="Rutsiro">Rutsiro</item>
+        <item name="Gatsibo">Gatsibo</item>
+        <item name="Bugesera">Bugesera</item>
+        <item name="Nyarugenge">Nyarugenge</item>
+        <item name="Gasabo">Gasabo</item>
+        <item name="Kicukiro">Kicukiro</item>
+    </string-array>
+
+    <!--Change PWD-->
+    <string name="changePwd">CHANGE PASSWORD</string>
+    <string name="pwdOld">Old Password</string>
+    <string name="pwdNew">New Password</string>
+    <string name="pwdConf">Confirm Password</string>
+    <string name="btnChangePwd">Update</string>
+    <!--Login-->
+    <string name="loginHeader">LOGIN INTO YOUR ACCOUNT</string>
+    <string name="uname" translatable="false">Username/Email</string>
+    <string name="pwd">Password</string>
+    <string name="btnLogin">Login</string>
+
+    <string name="header">TRACK YOUR LOST ITEM</string>
+    <string name="onqueque">REGISTER ON QUEUE</string>
+    <string name="tvOwner">Full Name</string>
+    <string name="tvType">Type:</string>
+    <string name="tvIdent">Identification Number:</string>
+    <string name="tvAddress" translatable="false">Email/Phone</string>
+
+    <!--END USERS-->
+    <string name="notfoundheader">NO RESULT FOUND</string>
+    <string name="notfoundcontent">Dear User..!\n Item you are searching for doesn\'t found.
+    We are Still working Hard so that we can get it\n\n Please try to make Search\n after
+    a Period of Time for the Update\n\n
+    THANK YOU FOR WORKING WITH US</string>
+
+    <!--END USERS-->
+    <string name="foundheader">RESULT FOUND</string>
+    <string name="foundcontent">Dear User!\nWe are Happy to Inform you that,\n
+    We have what you are searching for at our Office\n Office Address:\n
+    </string>
+    <string name="officename">Office Name:</string>
+    <string name="officerepresenter">Representer:</string>
+    <string name="doctype">Type:</string>
+    <string name="officeprovince">Province:</string>
+    <string name="officedistrict">District:</string>
+    <string name="officesector">Sector:</string>
+    <string name="officecell">Cell:</string>
+    <string name="officetel">Phone:</string>
+    <string name="officeaddr">Address:</string>
+<!--QUEUES-->
+    <string name="queueContent">Dear User! \nRegister on Beneficiaries List So that \n You Receive Immediate Notification,\n
+        When we Found what you\'ve Lost.</string>
+    <string name="qHeader">REGISTER YOUR ITEM</string>
+    <string name="postname">POST OFFICE INFORMATIONS</string>
+    <string name="infocontent">NB:This Information can only Modified By Headquarter Admin</string>
+    <string name="wehelptrackdoc">WE HELP TRACKING \n YOUR LOST ITEMS</string>
+    <string name="thanku">THANK YOU FOR WORKING WITH US</string>
+    <string name="footer" translatable="false">Be Foward Generation..!</string>
+    <string name="servernotconnect">Sorry,Does not Connect to Server </string>
+    <string name="offline">Sorry you are not Connected to the Internet</string>
+    <string name="passwordboxmust">All PasswordBox Must Not be Empty</string>
+    <string name="searchboxmust">SearchBox Must not be Empty</string>
+    <string name="nulls">Sorry some Vaues are Null</string>
+    <string name="fetchdata">Fetching Data for ID...</string>
+    <string name="fakeac">Sorry Fake Account or Wrong Password</string>
+    <string name="failchpwd">Sorry failed to Change Password</string>
+    <string name="chpwdsuccs">Password Changed Success</string>
+    <string name="loststaken">Losts Sent to Taken</string>
+    <string name="failtotake">Losts Failed to be Sent to Taken</string>
+    <string name="failupdlosts">Failed to Update Lost</string>
+    <string name="succsupdlosts">Lost Updated Success</string>
+    <string name="addedlostsexist">Sorry Added Losts Already exist</string>
+    <string name="failaddlosts">Failed to Add Losts</string>
+    <string name="succsaddlosts">Losts Added Success</string>
+    <string name="connectserver">Connecting to Server...</string>
+    <string name="loaddata">Loading Data...</string>
+    <string name="found">FOUND</string>
+    <string name="edit">Edit</string>
+    <string name="view">View</string>
+    <string name="loadlosts">Loading Losts...</string>
+    <string name="pwddontmatch">Sorry Password Doesn\'t match</string>
+    <string name="wrongunameorpwd">Wrong Username or Password</string>
+    <string name="forgpwd">Forget Password Click to Reset ?</string>
+    <string name="logsccs">Login Success</string>
+    <string name="allreadytaken">Losts Allready Taken,Reload for Effect</string>
+    <string name="unamehint">Username</string>
+    <string name="failaddqueue">Failed to add an Item</string>
+    <string name="succsaddqueue">You Item Added Successfull</string>
+    <string name="addedqueueexist">Sorry You are Already Registered On Queue</string>
+    <string name="btnreg">REGISTER</string>
+    <string name="notyetregistered">Not Yet Registered?</string>
+    <string name="readyregistered">Allready Registered?</string>
+    <string name="nid">NID</string>
+    <string name="title_activity_commissioner">Commissioner</string>
+    <string name="failupdcitizens">Failed to Update Citizen</string>
+    <string name="succsupdcitizens">Citizen Updated Success</string>
+    <string name="addedcitizensexist">Sorry Added Citizens Already exist</string>
+    <string name="failaddcitizens">Failed to Add Citizens</string>
+    <string name="succsaddcitizens">Citizens Added Success</string>
+    <string name="loadcitizens">Loading Citizens...</string>
+    <string name="title_section3" translatable="false">Section 3</string>
+    <string name="mustpay">You must Make Payment to Register</string>
+    <string name="mustpaylosts">You must Make Payment to Take Losts</string>
+    <string name="payacamount">Paying Account and Amount Listed Below</string>
+    <string name="regamount">Registration Amount:</string>
+    <string name="lostsamount">Losts Amount:</string>
+    <string name="paidonac">To Be Paid on one of this Account</string>
+    <string name="acinfo">Account Info:</string>
+    <string name="actype">Account Type:</string>
+    <string name="acname">Account Name:</string>
+    <string name="acnbr">Account Number:</string>
+    <string name="accompany">Account Company:</string>
+    <string name="registered">NEW CITIZEN</string>
+    <string name="regnew">REGISTERED</string>
+    <string name="founditem">Item Given to Owner</string>
+    <string name="chooseaction">Select Action</string>
+    <string name="citnotexisheader">Citizens not Exist</string>
+    <string name="citnotexismsg">Sorry..! Citizens you are trying to add his Item does not exist in System
+ Register Him Before add Item</string>
+    <string name="updateItem">Update Item</string>
+    <string name="headerpaymentreg">PAY REGISTRATION FEE</string>
+    <string name="headerpaymentsubm">MAKE PAYMENT SUBMISSION</string>
+    <string name="amount">Amount</string>
+    <string name="paymode">Payment Mode</string>
+    <string name="btnpay">Pay</string>
+    <string name="seachEnduserInfoHeader">GET YOUR ITEM INFORMATION</string>
+    <string name="searchUserPlaceHolder">Enter Your NID Number to get Items</string>
+    <string name="failupdpayments">Failed to Update Payment</string>
+    <string name="succsupdpayments">Payment Updated Success</string>
+    <string name="addedpaymentsexist">Sorry Added Payments Already exist</string>
+    <string name="failaddpayments">Failed to Add Payments</string>
+    <string name="succsaddpayments">Payments Added Success</string>
+    <string name="loadpayments">Loading Payments...</string>
+    <string name="approvepaymentHeader">Approve to make Payment</string>
+    <string name="approvepaymentwarning">Please make Sure the information filled is Correct</string>
+    <string name="approvepay">Approve Payment</string>
+    <string name="undone">This Action can not be Undone,Make Sure information given is Correct</string>
+    <string name="btncontinue">Continue</string>
+    <string name="btncancel">Cancel</string>
+    <string name="btnapprove">Approve</string>
+    <string name="btnok">OK</string>
+    <string name="btndownload">DOWNLOAD</string>
+    <string name="sendername">Sender Name</string>
+    <string name="senderphone">Sender Phone</string>
+    <string name="maxitemsheader">Maximum Items</string>
+    <string name="maxitemssmsg">Sorry..! Max Items Exceed with that Documents Type Please Try Other Option</string>
+    <string name="category">Category</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="phone">Phone</string>
+    <string name="userinfoHeader">PROFILE INFORMATIONS</string>
+    <string name="accbalance">Account Balance</string>
+    <string name="accamount">Your Igisubizo Commissioner Account has Amount of </string>
+    <string name="names">Names</string>
+    <string name="acHeader">ACCOUNT SUMMARY</string>
+    <string name="acandrep">ACOUNT AND REPORT</string>
+    <string name="accinfo">Account Information</string>
+    <string name="abanditse">Citizen Registered</string>
+    <string name="payhist">Payment History</string>
+    <string name="payhistHeader">DOWNLOAD PAYMENT HISTORY</string>
+    <string name="withdrawrepHeader">DOWNLOAD WTHIDRAW REPORT</string>
+    <string name="citizensrepHeader">CITIZENS REGISTRATION REPORT</string>
+    <string name="acrepHeader">IGISUBIZO REPORTS</string>
+    <string name="withdrawrep">Withdraw Report</string>
+    <string name="acsummary">Account Summary</string>
+    <string name="withdrawContent">Here you Gonna Download your Withdraw History Report That Shows you Earned Income with BFG...!\n You can Customise your Withdraw Report by
+    Selecting Range of Date you want and then Click Download Button Below</string>
+    <string name="filtercontent">To filter Select two Dates Click Download Button Below</string>
+    <string name="enjoybfg">Enjoy With Be Forward Generation Service</string>
+    <string name="choosedatetoreplace">Select date to Replace</string>
+    <string name="from">From</string>
+    <string name="To">To</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lostsrepHeader">LOSTS REPORT</string>
+    <string name="btnUpdWithdrawAccount">UPDATE WITHDRAW ACCOUNT</string>
+    <string name="btnWithdrawMoney">WITHDRAW MONEY</string>
+    <string name="updateAccMsg">Update Withdraw Account Informations</string>
+    <string name="addAccMsg">Add  Withdraw Account Informations</string>
+    <string name="withdrawAcc">Withdraw Account </string>
+    <string name="withdrawHeader">WITHDRAW AMOUNT OF MONEY</string>
+    <string name="approvewithdrawHeader">Approve to make Withdraw</string>
+    <string name="approvewithdrawwarning">Please make Sure the information filled is Correct</string>
+    <string name="approvewth">Approve Withdraw</string>
+
+    <string name="failupdwithdraws">Failed to Update Withdraw</string>
+    <string name="succsupdwithdraws">Withdraw Updated Success</string>
+    <string name="addedwithdrawsexist">Sorry Added Withdraws Already exist</string>
+    <string name="failaddwithdraws">Failed to Add Withdraws</string>
+    <string name="succsaddwithdraws">Withdraws Added Success</string>
+    <string name="loadwithdraws">Loading Withdraws...</string>
+    <string name="succsupdqueues">Updating Item Successfull Done</string>
+    <string name="qHeader0">REGISTER YOUR INFORMATION</string>
+    <string name="payhistContent">You are going to See Report Show Registration amount received from Citizens\n you Registered and Sent to Headquarter Account</string>
+    <string name="failupdqueues">Failed to Update Item</string>
+    <string name="btnback">Back</string>
+    <string name="account">Account</string>
+    <string name="to">To</string>
+    <string name="nocitfound">No Citizen Found for that NID</string>
+    <string name="balancelesser">Amount requested is Greater than Your Balance</string>
+    <string name="remainAmount">Amount Remain</string>
+    <string name="remainlesser">Amount Paid is Greater than Remain Amount</string>
+    <string name="wehelpkeepdoc">WE HELP KEEP YOUR ITEM</string>
+    <string name="viewitemsContent">Dear User! \nView your Items Registered \n You Receive Immediate Notification,\n
+        When it is  Lost and Found.</string>
+    <string name="registeredon">Registered On</string>
+    <string name="citizens">Citizens</string>
+    <string name="person">Person</string>
+    <string name="people">People</string>
+    <string name="income">Income</string>
+    <string name="withdrawn">Withdrawn</string>
+    <string name="regpaymsubm">Registration Payment Submission</string>
+    <string name="paid">Paid</string>
+    <string name="remain">Remain</string>
+    <string name="lostspaymsubm">Losts Payment Submission</string>
+    <string name="totlosts">Losts</string>
+    <string name="totgiven">Given</string>
+    <string name="totremain">Remain</string>
+    <string name="succsacchange">Withdraw Account changed Successfull</string>
+    <string name="failacchange">Failed to Update Withdraw Account</string>
+    <string name="existacchange">Withdraw Account Allready Exist</string>
+    <string name="updateCitizenHeader">UPDATE INFORMATION</string>
+    <string name="addCitizenHeader">ADD CITIZEN INFORMATION</string>
+    <string name="updateItemHeader">UPDATE ITEM</string>
+    <string name="issuedesc">Type Issue description....</string>
+    <string name="issuetitle">Type Issue title....</string>
+    <string name="invalidnid">Invalid National Identity Number</string>
+    <string name="invalidphone">Invalid Phone number</string>
+    <string name="invalidamount">Amount can not be empty</string>
+    <string name="zeroamount">Amount can not be Zero</string>
+    <string name="uniqueinfoHeader">Unique Information</string>
+    <string name="uniqueinfoMsg">Failed...! Some Unique Info Owned by Other Partner</string>
+    <string name="failaddissue">Failed to add issue</string>
+</resources>

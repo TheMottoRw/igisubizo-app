@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        android:paddingBottom="3dp"
+        android:paddingRight="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/received_message"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:id="@+id/iscid"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tvIscMSg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLostType"
+            android:text="This is to tell u that issues has been  seen and will be solved few minutes next"
+            android:layout_marginLeft="15dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tvIscMSg"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+        <TextView
+            android:id="@+id/tvIscDate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="2018-04-04 12:23"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/tvIscStatus"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="sent"
+            android:layout_marginLeft="45dp"
+            android:textSize="10dp"
+            android:layout_marginTop="2dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/C:/Users/bpradmin/AndroidStudioProjects/igisubizo/app/src/main/res/layout/issue_received_row.xml -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/login_fieldset"
+        android:layout_marginTop="100dp"
+        android:paddingBottom="20dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hitamo Ururimi/Choose Language"
+    style="@style/addnew_header"
+    android:paddingLeft="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/eng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kinyarwanda"
+            style="@style/fonts"/>
+        <Switch
+            android:id="@+id/langs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/kinya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            style="@style/fonts"/>
+    </LinearLayout>
+        <Button
+            android:id="@+id/btnLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KOMEZA/CONTINUE"
+            style="@style/btn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/btnSave"
+            android:drawableLeft="@mipmap/save"
+            />
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/bpradmin/AndroidStudioProjects/igisubizo/app/src/main/res/layout/language.xml -->

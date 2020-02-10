@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0000f6</color>
+    <color name="colorAccent">#0000f1</color>
+    <color name="colorPrimaryDark">#0060ff</color>
+    <color name="btnSave">#09F</color>
+    <color name="white">#ffffff</color>
+<color name="btnCancel">#ff0060</color>
+    <color name="winBg">#bfddfb</color>
+    
+    <!--Shapes-->
+    <color name="tvBg">#f6f2f0</color>
+    <color name="edtBg">#fff</color>
+    <color name="edtBorder">#000</color>
+    <color name="recyclBg">#acdbc8</color>
+    <color name="sent">#eaefdd</color>
+    <color name="received">#dcebe6</color>
+</resources>
